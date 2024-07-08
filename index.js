@@ -17,6 +17,4 @@ app.post('/home', (req, res)=>{
 })
 
 
-app.listen(3000, ()=>{
-    console.log("app is listening on 3000 port")
-})
+app.listen(3000)
